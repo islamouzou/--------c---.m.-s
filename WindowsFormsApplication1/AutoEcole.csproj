@@ -143,6 +143,12 @@
     <Compile Include="ChangePass.Designer.cs">
       <DependentUpon>ChangePass.cs</DependentUpon>
     </Compile>
+    <Compile Include="Consultation_P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultation_P.Designer.cs">
+      <DependentUpon>Consultation_P.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomAppointmentForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -350,6 +356,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangePass.resx">
       <DependentUpon>ChangePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultation_P.resx">
+      <DependentUpon>Consultation_P.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CustomAppointmentForm.de.resx">
       <DependentUpon>CustomAppointmentForm.cs</DependentUpon>

@@ -610,5 +610,11 @@ namespace WindowsFormsApplication1
         {
             popupContainerControl5.Hide();
         }
+
+        private void simpleButton12_Click(object sender, EventArgs e)
+        {
+            Consultation_P con_p = new Consultation_P(this);
+            con_p.ShowDialog();
+        }
     }
 }

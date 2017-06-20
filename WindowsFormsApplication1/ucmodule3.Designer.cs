@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode3 = new DevExpress.XtraGrid.GridLevelNode();
@@ -38,9 +37,30 @@
             DevExpress.XtraGrid.GridLevelNode gridLevelNode7 = new DevExpress.XtraGrid.GridLevelNode();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucmodule3));
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.clientBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
+            this.clientBindingSource3 = new System.Windows.Forms.BindingSource();
             this.inventoryDataSet12 = new WindowsFormsApplication1.inventoryDataSet12();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colID_client = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colnom = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colprénom = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colsexe = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.coldate_naissance = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.collieu = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colgrade = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colsituation = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.coladress = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.coldate_recrutement = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colgroupage = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colwilaya = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colphoto = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colRessourceID = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colformation_scolaire = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colformation_professionnelle = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colact_pro = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colservice_national = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colqualification = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colpoids = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.coltaille = new DevExpress.XtraGrid.Columns.GridColumn();
             this.searchControl1 = new DevExpress.XtraEditors.SearchControl();
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.bar3 = new DevExpress.XtraBars.Bar();
@@ -68,7 +88,7 @@
             this.groupageTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.wilayaTextEdit = new DevExpress.XtraEditors.TextEdit();
             this.photoPictureEdit = new DevExpress.XtraEditors.PictureEdit();
-            this.clientBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.clientBindingSource1 = new System.Windows.Forms.BindingSource();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlGroup3 = new DevExpress.XtraLayout.LayoutControlGroup();
@@ -96,7 +116,7 @@
             this.tabNavigationPage4 = new DevExpress.XtraBars.Navigation.TabNavigationPage();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl3 = new DevExpress.XtraGrid.GridControl();
-            this.carriereBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.carriereBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -109,7 +129,7 @@
             this.textEdit13 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit14 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit15 = new DevExpress.XtraEditors.TextEdit();
-            this.crrièreaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.crrièreaBindingSource1 = new System.Windows.Forms.BindingSource();
             this.layoutControlGroup10 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlGroup11 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlGroup12 = new DevExpress.XtraLayout.LayoutControlGroup();
@@ -140,7 +160,7 @@
             this.simpleButton14 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.vaccinControl6 = new DevExpress.XtraGrid.GridControl();
-            this.vaccinationsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.vaccinationsBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView6 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colid3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colid_client4 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -150,7 +170,7 @@
             this.coldate_s = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colvaccinations = new DevExpress.XtraGrid.Columns.GridColumn();
             this.accidentControl5 = new DevExpress.XtraGrid.GridControl();
-            this.accidenttBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.accidenttBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.coldate2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.collieu1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -160,7 +180,7 @@
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.gridControl7 = new DevExpress.XtraGrid.GridControl();
-            this.aPBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.aPBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView7 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colid4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colid_client5 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -173,13 +193,13 @@
             this.colmcp = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colaf = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridControl4 = new DevExpress.XtraGrid.GridControl();
-            this.conPBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.conPBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colid1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colid_client2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.coldate1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.conBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.conBindingSource = new System.Windows.Forms.BindingSource();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colid = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colid_client1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -207,17 +227,17 @@
             this.inventoryDataSet14 = new WindowsFormsApplication1.inventoryDataSet14();
             this.conTableAdapter1 = new WindowsFormsApplication1.inventoryDataSet12TableAdapters.ConTableAdapter();
             this.con_PTableAdapter1 = new WindowsFormsApplication1.inventoryDataSet12TableAdapters.Con_PTableAdapter();
-            this.dwaBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.dwaBindingSource2 = new System.Windows.Forms.BindingSource();
             this.dwaTableAdapter = new WindowsFormsApplication1.inventoryDataSet13TableAdapters.DwaTableAdapter();
-            this.clientBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.dwaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.clientBindingSource2 = new System.Windows.Forms.BindingSource();
+            this.dwaBindingSource = new System.Windows.Forms.BindingSource();
             this.inventoryDataSet13 = new WindowsFormsApplication1.inventoryDataSet13();
-            this.dwaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.dwaBindingSource1 = new System.Windows.Forms.BindingSource();
             this.crrière_aTableAdapter1 = new WindowsFormsApplication1.inventoryDataSet12TableAdapters.Crrière_aTableAdapter();
             this.carriereTableAdapter1 = new WindowsFormsApplication1.inventoryDataSet12TableAdapters.CarriereTableAdapter();
             this.clientTableAdapter = new WindowsFormsApplication1.inventoryDataSet12TableAdapters.ClientTableAdapter();
-            this.crrièreaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.clientBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.crrièreaBindingSource = new System.Windows.Forms.BindingSource();
+            this.clientBindingSource = new System.Windows.Forms.BindingSource();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -263,7 +283,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.groupControl7 = new DevExpress.XtraEditors.GroupControl();
             this.lookUpEdit6 = new DevExpress.XtraEditors.LookUpEdit();
-            this.filesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.filesBindingSource = new System.Windows.Forms.BindingSource();
             this.lookUpEdit5 = new DevExpress.XtraEditors.LookUpEdit();
             this.lookUpEdit4 = new DevExpress.XtraEditors.LookUpEdit();
             this.lookUpEdit3 = new DevExpress.XtraEditors.LookUpEdit();
@@ -317,27 +337,6 @@
             this.label74 = new System.Windows.Forms.Label();
             this.filesTableAdapter = new WindowsFormsApplication1.inventoryDataSet12TableAdapters.filesTableAdapter();
             this.autocompleteMenu1 = new AutocompleteMenuNS.AutocompleteMenu();
-            this.colID_client = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colnom = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colprénom = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colsexe = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.coldate_naissance = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.collieu = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colgrade = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colsituation = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.coladress = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.coldate_recrutement = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colgroupage = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colwilaya = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colphoto = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colRessourceID = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colformation_scolaire = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colformation_professionnelle = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colact_pro = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colservice_national = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colqualification = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colpoids = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.coltaille = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientBindingSource3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inventoryDataSet12)).BeginInit();
@@ -563,6 +562,119 @@
             this.gridView1.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridView1_RowClick);
             this.gridView1.ShowingPopupEditForm += new DevExpress.XtraGrid.Views.Grid.ShowingPopupEditFormEventHandler(this.gridView1_ShowingPopupEditForm_1);
             this.gridView1.RowUpdated += new DevExpress.XtraGrid.Views.Base.RowObjectEventHandler(this.gridView1_RowUpdated);
+            // 
+            // colID_client
+            // 
+            this.colID_client.FieldName = "ID_client";
+            this.colID_client.Name = "colID_client";
+            this.colID_client.Visible = true;
+            this.colID_client.VisibleIndex = 0;
+            // 
+            // colnom
+            // 
+            this.colnom.FieldName = "nom";
+            this.colnom.Name = "colnom";
+            this.colnom.Visible = true;
+            this.colnom.VisibleIndex = 1;
+            // 
+            // colprénom
+            // 
+            this.colprénom.FieldName = "prénom";
+            this.colprénom.Name = "colprénom";
+            this.colprénom.Visible = true;
+            this.colprénom.VisibleIndex = 2;
+            // 
+            // colsexe
+            // 
+            this.colsexe.FieldName = "sexe";
+            this.colsexe.Name = "colsexe";
+            this.colsexe.Visible = true;
+            this.colsexe.VisibleIndex = 3;
+            // 
+            // coldate_naissance
+            // 
+            this.coldate_naissance.FieldName = "date_naissance";
+            this.coldate_naissance.Name = "coldate_naissance";
+            // 
+            // collieu
+            // 
+            this.collieu.FieldName = "lieu";
+            this.collieu.Name = "collieu";
+            // 
+            // colgrade
+            // 
+            this.colgrade.FieldName = "grade";
+            this.colgrade.Name = "colgrade";
+            // 
+            // colsituation
+            // 
+            this.colsituation.FieldName = "situation";
+            this.colsituation.Name = "colsituation";
+            // 
+            // coladress
+            // 
+            this.coladress.FieldName = "adress";
+            this.coladress.Name = "coladress";
+            // 
+            // coldate_recrutement
+            // 
+            this.coldate_recrutement.FieldName = "date_recrutement";
+            this.coldate_recrutement.Name = "coldate_recrutement";
+            // 
+            // colgroupage
+            // 
+            this.colgroupage.FieldName = "groupage";
+            this.colgroupage.Name = "colgroupage";
+            // 
+            // colwilaya
+            // 
+            this.colwilaya.FieldName = "wilaya";
+            this.colwilaya.Name = "colwilaya";
+            // 
+            // colphoto
+            // 
+            this.colphoto.FieldName = "photo";
+            this.colphoto.Name = "colphoto";
+            // 
+            // colRessourceID
+            // 
+            this.colRessourceID.FieldName = "RessourceID";
+            this.colRessourceID.Name = "colRessourceID";
+            // 
+            // colformation_scolaire
+            // 
+            this.colformation_scolaire.FieldName = "formation_scolaire";
+            this.colformation_scolaire.Name = "colformation_scolaire";
+            // 
+            // colformation_professionnelle
+            // 
+            this.colformation_professionnelle.FieldName = "formation_professionnelle";
+            this.colformation_professionnelle.Name = "colformation_professionnelle";
+            // 
+            // colact_pro
+            // 
+            this.colact_pro.FieldName = "act_pro";
+            this.colact_pro.Name = "colact_pro";
+            // 
+            // colservice_national
+            // 
+            this.colservice_national.FieldName = "service_national";
+            this.colservice_national.Name = "colservice_national";
+            // 
+            // colqualification
+            // 
+            this.colqualification.FieldName = "qualification";
+            this.colqualification.Name = "colqualification";
+            // 
+            // colpoids
+            // 
+            this.colpoids.FieldName = "poids";
+            this.colpoids.Name = "colpoids";
+            // 
+            // coltaille
+            // 
+            this.coltaille.FieldName = "taille";
+            this.coltaille.Name = "coltaille";
             // 
             // searchControl1
             // 
@@ -2070,6 +2182,7 @@
             this.simpleButton12.Size = new System.Drawing.Size(104, 33);
             this.simpleButton12.TabIndex = 40;
             this.simpleButton12.Text = "Ajouter";
+            this.simpleButton12.Click += new System.EventHandler(this.simpleButton12_Click);
             // 
             // simpleButton11
             // 
@@ -3103,119 +3216,6 @@
             this.autocompleteMenu1.Items = new string[0];
             this.autocompleteMenu1.SearchPattern = "[\\w\\][ ]";
             this.autocompleteMenu1.TargetControlWrapper = null;
-            // 
-            // colID_client
-            // 
-            this.colID_client.FieldName = "ID_client";
-            this.colID_client.Name = "colID_client";
-            this.colID_client.Visible = true;
-            this.colID_client.VisibleIndex = 0;
-            // 
-            // colnom
-            // 
-            this.colnom.FieldName = "nom";
-            this.colnom.Name = "colnom";
-            this.colnom.Visible = true;
-            this.colnom.VisibleIndex = 1;
-            // 
-            // colprénom
-            // 
-            this.colprénom.FieldName = "prénom";
-            this.colprénom.Name = "colprénom";
-            this.colprénom.Visible = true;
-            this.colprénom.VisibleIndex = 2;
-            // 
-            // colsexe
-            // 
-            this.colsexe.FieldName = "sexe";
-            this.colsexe.Name = "colsexe";
-            this.colsexe.Visible = true;
-            this.colsexe.VisibleIndex = 3;
-            // 
-            // coldate_naissance
-            // 
-            this.coldate_naissance.FieldName = "date_naissance";
-            this.coldate_naissance.Name = "coldate_naissance";
-            // 
-            // collieu
-            // 
-            this.collieu.FieldName = "lieu";
-            this.collieu.Name = "collieu";
-            // 
-            // colgrade
-            // 
-            this.colgrade.FieldName = "grade";
-            this.colgrade.Name = "colgrade";
-            // 
-            // colsituation
-            // 
-            this.colsituation.FieldName = "situation";
-            this.colsituation.Name = "colsituation";
-            // 
-            // coladress
-            // 
-            this.coladress.FieldName = "adress";
-            this.coladress.Name = "coladress";
-            // 
-            // coldate_recrutement
-            // 
-            this.coldate_recrutement.FieldName = "date_recrutement";
-            this.coldate_recrutement.Name = "coldate_recrutement";
-            // 
-            // colgroupage
-            // 
-            this.colgroupage.FieldName = "groupage";
-            this.colgroupage.Name = "colgroupage";
-            // 
-            // colwilaya
-            // 
-            this.colwilaya.FieldName = "wilaya";
-            this.colwilaya.Name = "colwilaya";
-            // 
-            // colphoto
-            // 
-            this.colphoto.FieldName = "photo";
-            this.colphoto.Name = "colphoto";
-            // 
-            // colRessourceID
-            // 
-            this.colRessourceID.FieldName = "RessourceID";
-            this.colRessourceID.Name = "colRessourceID";
-            // 
-            // colformation_scolaire
-            // 
-            this.colformation_scolaire.FieldName = "formation_scolaire";
-            this.colformation_scolaire.Name = "colformation_scolaire";
-            // 
-            // colformation_professionnelle
-            // 
-            this.colformation_professionnelle.FieldName = "formation_professionnelle";
-            this.colformation_professionnelle.Name = "colformation_professionnelle";
-            // 
-            // colact_pro
-            // 
-            this.colact_pro.FieldName = "act_pro";
-            this.colact_pro.Name = "colact_pro";
-            // 
-            // colservice_national
-            // 
-            this.colservice_national.FieldName = "service_national";
-            this.colservice_national.Name = "colservice_national";
-            // 
-            // colqualification
-            // 
-            this.colqualification.FieldName = "qualification";
-            this.colqualification.Name = "colqualification";
-            // 
-            // colpoids
-            // 
-            this.colpoids.FieldName = "poids";
-            this.colpoids.Name = "colpoids";
-            // 
-            // coltaille
-            // 
-            this.coltaille.FieldName = "taille";
-            this.coltaille.Name = "coltaille";
             // 
             // ucmodule3
             // 
